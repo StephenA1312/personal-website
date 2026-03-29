@@ -13,9 +13,13 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stephen Ali | Software Engineer",
+  title: "Stephen Ali",
   description:
     "Backend and payment systems engineer building reliable, high-throughput services with Java, Spring Boot, and distributed systems practices.",
+  icons: {
+    icon: "/images/tab-icon.svg",
+    shortcut: "/images/tab-icon.svg",
+  },
 };
 
 export default function RootLayout({
