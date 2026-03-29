@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const languages = ["Java", "Python", "Kotlin", "C", "C++"];
 
 const technologies = [
@@ -40,9 +38,9 @@ export function SkillsSection() {
               <ul className="skill-list">
                 {languages.map((skill) => (
                   <li key={skill}>
-                    <Image
+                    <img
                       className="icon-colored"
-                      src="/images/checkmark.png"
+                      src="images/checkmark.png"
                       alt="check"
                       width={24}
                       height={24}
@@ -58,9 +56,9 @@ export function SkillsSection() {
               <ul className="skill-list">
                 {technologies.map((skill) => (
                   <li key={skill}>
-                    <Image
+                    <img
                       className="icon-colored"
-                      src="/images/checkmark.png"
+                      src="images/checkmark.png"
                       alt="check"
                       width={24}
                       height={24}
@@ -76,9 +74,9 @@ export function SkillsSection() {
               <ul className="skill-list">
                 {concepts.map((skill) => (
                   <li key={skill}>
-                    <Image
+                    <img
                       className="icon-colored"
-                      src="/images/checkmark.png"
+                      src="images/checkmark.png"
                       alt="check"
                       width={24}
                       height={24}

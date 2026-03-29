@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
-const isGithubActions = process.env.GITHUB_ACTIONS === "true";
-const repo = process.env.GITHUB_REPOSITORY?.replace(/.*?\//, "") ?? "";
+const repoName = "personal-website";
 
 const nextConfig: NextConfig = {
   output: "export",
@@ -9,8 +8,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  basePath: isGithubActions ? `/${repo}` : "",
-  assetPrefix: isGithubActions ? `/${repo}/` : "",
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
 };
 
 export default nextConfig;

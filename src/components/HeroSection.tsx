@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export function HeroSection() {
   return (
     <section className="hero" id="top">
@@ -18,13 +16,12 @@ export function HeroSection() {
         </div>
 
         <div className="profile-img-wrapper">
-          <Image
+          <img
             className="profile-img"
-            src="/images/profile-5782.jpg"
+            src="images/profile-5782.jpg"
             alt="Stephen Ali profile photo"
             width={240}
             height={240}
-            priority
           />
         </div>
       </div>

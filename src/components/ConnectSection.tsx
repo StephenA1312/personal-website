@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 
 const email = 'stephensemakoali@gmail.com';
 
@@ -24,9 +23,9 @@ export function ConnectSection() {
           <div className="contact-box">
             <span className="contact-label">Email</span>
             <div className="email-display">
-              <Image
+              <img
                 className="email-icon-large icon-colored"
-                src="/images/email.png"
+                src="images/email.png"
                 alt="email icon"
                 width={24}
                 height={24}
@@ -59,7 +58,7 @@ export function ConnectSection() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image className="icon-colored" src="/images/github.png" alt="Github" width={24} height={24} />
+                <img className="icon-colored" src="images/github.png" alt="Github" width={24} height={24} />
                 GitHub
               </a>
               <a
@@ -68,7 +67,7 @@ export function ConnectSection() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image className="icon-colored" src="/images/linkedin.png" alt="LinkedIn" width={24} height={24} />
+                <img className="icon-colored" src="images/linkedin.png" alt="LinkedIn" width={24} height={24} />
                 LinkedIn
               </a>
             </div>
