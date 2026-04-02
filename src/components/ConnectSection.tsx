@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const email = 'me@stephen-ali.com';
+const email = 'contact@stephen-ali.com';
 
 export function ConnectSection() {
   const [copied, setCopied] = useState(false);
